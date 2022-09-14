@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference Variable</title>
+</head>
+<body>
+    
+    <script>
+
+// var variable with global scope test
+var x = "Hello ";
+var x = "world";
+
+document.write(x);
+if(1==1){
+    var y= 3;
+}
+document.write(y);
+
+// let variable with block scope test
+
+let x1 = "hi";
+let x2 = "hey";
+x1= "woow";
+document.write(x1);
+
+if(1==1)
+{
+    let x3 = "hi"
+}
+document.write(x3); // don't print
+
+// const variable with block scope test
+
+const x5= "si"
+// const x5 = "fd" Not working ,becouse const 
+    </script>
+</body>
+</html>
