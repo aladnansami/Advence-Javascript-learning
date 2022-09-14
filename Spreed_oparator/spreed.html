@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spreed Oparator</title>
+</head>
+<body>
+    <script>
+
+        function sum(name, ...args){
+            console.log(arguments);
+            document.write(`Hello ${name} : `);
+            let sum=0;
+            for(let i in args){
+                sum += args[i];
+            }
+            document.write(sum);
+        }
+        var arr = [10,20,20,30,40];
+        sum ("AL aFNAN", ...arr);
+    </script>
+    
+</body>
+</html>
