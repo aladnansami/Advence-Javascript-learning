@@ -9,17 +9,27 @@
 <body>
     <script>
 
-        function sum(name, ...args){
-            console.log(arguments);
-            document.write(`Hello ${name} : `);
-            let sum=0;
-            for(let i in args){
-                sum += args[i];
-            }
-            document.write(sum);
+        // function sum(name, ...args){
+        //     console.log(arguments);
+        //     document.write(`Hello ${name} : `);
+        //     let sum=0;
+        //     for(let i in args){
+        //         sum += args[i];
+        //     }
+        //     document.write(sum);
+        // }
+        // var arr = [10,20,20,30,40];
+        // sum ("AL aFNAN", ...arr);
+
+        const name ="adnan";
+        document.write(name);
+
+
+        function changeName(){
+            name ="Bapin"
         }
-        var arr = [10,20,20,30,40];
-        sum ("AL aFNAN", ...arr);
+        changeName();
+        document.write(name);
     </script>
     
 </body>
