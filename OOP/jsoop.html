@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript OOP</title>
+</head>
+<body>
+    <script>
+        class student{
+            constructor (name){
+                let studentname = name;
+                document.write("Construction build")
+
+            }
+            hello(){
+                document.write("Hello" + this.studentname)
+            }
+        }
+        let a = new studentname("Al Adnan Sami")
+        a.hello();
+    </script>
+</body>
+</html>
